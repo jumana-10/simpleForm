@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: rgb(255, 245, 245);
+    font-family: 'Barlow', sans-serif;
+}
+
+:root {
+    --PrimaryColor :#0d6efd;
+}
+
+/* Default code */
+
+.formContainer {
+    /* background-color: bisque; */
+}
+
+.registerForm {
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    height: auto;
+    margin: 15px 40px;
+}
+
+.registerForm h3 {
+    background-color: var(--PrimaryColor);
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.formGroup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#group {
+    width: 50%;
+    position: relative;
+    margin: 5px 10px;
+}
+
+#group i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#group input {
+    width: 100%;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.email {
+    width: 100%;
+    position: relative;
+    margin: 5px 10px;
+}
+
+.email i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.email input {
+    width: 100%;
+    padding: 10px 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#dropdown {
+    width: 50%;
+    position: relative;
+    margin: 5px 10px;
+    padding: 9px 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#address {
+    width: 50%;
+    position: relative;
+    margin: 5px 10px;
+}
+
+#address i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#address textarea {
+    width: 100%;
+    padding: 10px 30px 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.formCheck {
+    padding-left: 10px;
+}
+
+.formGroup button {
+    background-color: var(--PrimaryColor);
+    color: #ffffff;
+    width: 50%;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.formGroup p {
+    margin: 20px;
+}
+
+.formGroup span {
+    color: var(--PrimaryColor);
+}
