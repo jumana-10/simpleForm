@@ -37,51 +37,51 @@ body {
     margin-bottom: 10px;
 }
 
-.formGroup {
+.twoInput {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-#group {
+.formGroup {
     width: 50%;
     position: relative;
     margin: 5px 10px;
 }
 
-#group i {
+.formGroup i {
     position: absolute;
     top: 10px;
     left: 10px;
 }
 
-#group input {
+.formGroup input {
     width: 100%;
     padding: 10px 30px;
     border-radius: 5px;
     border: 1px solid gray;
 }
 
-.email {
-    width: 100%;
+.oneInput .formGroup {
+    width: 98.5%;
     position: relative;
     margin: 5px 10px;
 }
 
-.email i {
+.oneInput .formGroupOne i {
     position: absolute;
     top: 10px;
     left: 10px;
 }
 
-.email input {
+.oneInput .formGroupOne input {
     width: 100%;
-    padding: 10px 35px;
+    padding: 10px 10px 10px 35px;
     border-radius: 5px;
     border: 1px solid gray;
 }
 
-#dropdown {
+#dropDown {
     width: 50%;
     position: relative;
     margin: 5px 10px;
@@ -113,7 +113,13 @@ body {
     padding-left: 10px;
 }
 
-.formGroup button {
+.formGroupReg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formGroupReg button {
     background-color: var(--PrimaryColor);
     color: #ffffff;
     width: 50%;
@@ -123,10 +129,10 @@ body {
     border-radius: 5px;
 }
 
-.formGroup p {
+.formGroupReg p {
     margin: 20px;
 }
 
-.formGroup span {
+.formGroupReg span {
     color: var(--PrimaryColor);
 }
